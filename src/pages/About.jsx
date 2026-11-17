@@ -65,7 +65,7 @@ const About = () => {
           <div>
             <h2 className="text-[2.15rem] font-bold text-[#0d1117] sm:text-[2.5rem]">My Skills</h2>
 
-            <div className="mt-7 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:max-w-[32.5rem]">
+            <div className="mt-7 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:max-w-130">
               {skillTags.map((skill) => (
                 <div
                   key={skill}
